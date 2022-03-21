@@ -1,0 +1,52 @@
+html {
+    background: url('./background.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+  
+.keys {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.key {
+  border: .2rem solid white;
+  border-radius: .9rem;
+  margin: 1rem;
+  font-size: 4rem;
+  width: 4rem;
+  text-align: center;
+  color: white;
+  transition: all .07s ease;
+}
+
+.mplaying {
+    transform: scale(2, 2);
+    border-color: red;
+}
+
+.uplaying {
+    transform: scale(1.5, 1.5);
+    border-color: greenyellow;
+}
+
+.splaying {
+    transform: scale(2, 2);
+    border-color: purple;
+}
+
+.iplaying {
+    transform: scale(1.5, 1.5);
+    border-color: orange
+}
+
+.cplaying {
+    transform: scale(2, 2);
+    border-color: blue;
+}
