@@ -26,27 +26,32 @@ html {
   transition: all .07s ease;
 }
 
-.mplaying {
+.KeyMplaying {
     transform: scale(2, 2);
     border-color: red;
+    color: rgb(192, 0, 0);
 }
 
-.uplaying {
+.KeyUplaying {
     transform: scale(1.5, 1.5);
     border-color: greenyellow;
+    color: green;
 }
 
-.splaying {
+.KeySplaying {
     transform: scale(2, 2);
     border-color: purple;
+    color: rebeccapurple;
 }
 
-.iplaying {
+.KeyIplaying {
     transform: scale(1.5, 1.5);
-    border-color: orange
+    border-color: orange;
+    color: yellow;
 }
 
-.cplaying {
+.KeyCplaying {
     transform: scale(2, 2);
     border-color: blue;
+    color: skyblue;
 }
