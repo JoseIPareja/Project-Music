@@ -7,6 +7,7 @@ function playMusic(e) {
 }
 
 window.addEventListener('keydown', playMusic);
+window.addEventListener('touchstart', playMusic);
 
 function removeEffect(e) {
     if (e.propertyName !== 'transform') return;
